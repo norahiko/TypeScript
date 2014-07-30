@@ -4228,6 +4228,7 @@ module ts {
                 case SyntaxKind.DeleteKeyword:
                     return booleanType;
                 case SyntaxKind.TypeOfKeyword:
+                case SyntaxKind.ShowtypeKeyword:
                     return stringType;
                 case SyntaxKind.VoidKeyword:
                     return undefinedType;
