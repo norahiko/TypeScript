@@ -781,6 +781,11 @@ module ts {
             }
 
             function emitUnaryExpression(node: UnaryExpression) {
+                if (node.operator === SyntaxKind.ShowtypeKeyword) {
+                    write(JSON.stringify((<any>node).typeName));
+                    return;
+                }
+
                 if (node.kind === SyntaxKind.PrefixOperator) {
                     write(tokenToString(node.operator));
                 }

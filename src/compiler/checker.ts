@@ -4219,6 +4219,10 @@ module ts {
 
         function checkPrefixExpression(node: UnaryExpression): Type {
             var operandType = checkExpression(node.operand);
+            if (node.operator === SyntaxKind.ShowtypeKeyword) {
+                (<any>node).typeName = typeToString(operandType);
+            }
+
             switch (node.operator) {
                 case SyntaxKind.PlusToken:
                 case SyntaxKind.MinusToken:
