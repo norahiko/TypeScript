@@ -72,6 +72,7 @@ module ts {
         "require": SyntaxKind.RequireKeyword,
         "return": SyntaxKind.ReturnKeyword,
         "set": SyntaxKind.SetKeyword,
+        "showtype": SyntaxKind.ShowtypeKeyword,
         "static": SyntaxKind.StaticKeyword,
         "string": SyntaxKind.StringKeyword,
         "super": SyntaxKind.SuperKeyword,

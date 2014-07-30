@@ -1467,6 +1467,7 @@ module ts {
                 case SyntaxKind.TildeToken:
                 case SyntaxKind.ExclamationToken:
                 case SyntaxKind.DeleteKeyword:
+                case SyntaxKind.ShowtypeKeyword:
                 case SyntaxKind.TypeOfKeyword:
                 case SyntaxKind.VoidKeyword:
                 case SyntaxKind.PlusPlusToken:
@@ -1876,6 +1877,7 @@ module ts {
                 case SyntaxKind.TildeToken:
                 case SyntaxKind.ExclamationToken:
                 case SyntaxKind.DeleteKeyword:
+                case SyntaxKind.ShowtypeKeyword:
                 case SyntaxKind.TypeOfKeyword:
                 case SyntaxKind.VoidKeyword:
                 case SyntaxKind.PlusPlusToken:

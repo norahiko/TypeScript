@@ -80,6 +80,7 @@ module ts {
         DebuggerKeyword,
         DefaultKeyword,
         DeleteKeyword,
+        ShowtypeKeyword,
         DoKeyword,
         ElseKeyword,
         EnumKeyword,
